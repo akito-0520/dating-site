@@ -1,0 +1,59 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input[type="submit"] {
+    background-color: pink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group input[type="number"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+.radio-group label {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.radio-group input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+}

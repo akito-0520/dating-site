@@ -1,0 +1,61 @@
+body {
+    background-color: pink;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.user-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    margin: 10px 0;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.action-buttons button {
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-buttons button:hover {
+    background-color: darkpink;
+}
+
+.button-back {
+    padding: 10px 20px;
+    background-color: hotpink;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.button-back:hover {
+    background-color: darkpink;
+}

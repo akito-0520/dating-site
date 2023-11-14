@@ -1,0 +1,62 @@
+/*index.html*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fceff1;
+    /* 淡いピンクの背景色 */
+}
+
+.header {
+    background-color: #ff3366;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+.gree {
+    color: #000000;
+    font-size: 36px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    color: #333;
+    font-size: 18px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff3366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e6004c;
+}
+
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
